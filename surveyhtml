@@ -1,0 +1,44 @@
+<body id="main">
+  <h1 id="title" align="center"> Free Code Camp Survey </h1>
+  <p id="description" align="center"><i> That you for taking the time to fill out our survey form to improve our platform. </i></p>
+
+  <div id="form">
+    <form id="survey-form">
+      <label id="name-label"> Name: </label>
+      <input type="name" required placeholder="Enter Name" id="name" name="name">
+      <label id="email-label"> Email: </label>
+      <form id="email">
+        <input type="email" id="email" required placeholder="Enter Email" name="email">
+        <label id="number-label"> Age: </label>
+        <form id="number">
+          <input type="number" id="number" required placeholder="Must be at least 10 to enter" min="10" max="99">
+          <label> What is your favorite Color? </label>
+          <select id="dropdown">
+            <option value="">--Please choose an option--</option>
+            <option value="blue">Blue</option>
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+          </select>
+
+          <label id="gender">Gender: </label>
+          <label> Male </Label>
+          <input type="radio" name="gender" value="male">
+          <label> Female </Label>
+          <input type="radio" name="gender" value="female">
+          <label> Other </Label>
+          <input type="radio" name="gender" value="Other">
+
+          <label> Favorite Pizza Toppings </label>
+          <label> Cheese </label><input type="checkbox" name="topping" value=" cheese">
+          <label> Pepperoni </label>
+          <input type="checkbox" name="topping" value="pepperoni">
+          <label> Ham </label>
+          <input type="checkbox" name="topping" value="ham">
+
+          <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter a comment here"></textarea>
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </form>
+
+</body>
